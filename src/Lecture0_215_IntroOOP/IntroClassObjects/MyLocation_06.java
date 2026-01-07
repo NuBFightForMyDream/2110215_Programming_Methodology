@@ -1,4 +1,4 @@
-package Lecture00_215_OOP;
+package Lecture0_215_IntroOOP.IntroClassObjects;
 
 public class MyLocation_06 {
 	// main fn : call all functions 

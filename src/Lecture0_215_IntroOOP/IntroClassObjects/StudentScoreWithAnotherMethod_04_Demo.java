@@ -1,4 +1,4 @@
-package Lecture00_215_OOP;
+package Lecture0_215_IntroOOP.IntroClassObjects;
 
 public class StudentScoreWithAnotherMethod_04_Demo {
 	// main function 

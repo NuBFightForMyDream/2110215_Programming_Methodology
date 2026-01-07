@@ -1,4 +1,4 @@
-package Lecture00_2110215;
+package Lecture0_215_IntroOOP;
 
 import java.io.BufferedReader;
 import java.io.IOException;

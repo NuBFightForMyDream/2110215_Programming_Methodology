@@ -1,4 +1,4 @@
-package Lecture00_2110215;
+package Lecture0_215_IntroOOP;
 
 // import Scanner class
 import java.util.Scanner;
