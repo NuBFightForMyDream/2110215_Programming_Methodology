@@ -1,4 +1,4 @@
-package Lecture00_215_OOP;
+package Lecture0_215_IntroOOP.IntroClassObjects;
 
 public class StudentScorePrivate_02_Class {
 	// define variables

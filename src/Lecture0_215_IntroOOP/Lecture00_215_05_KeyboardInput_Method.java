@@ -1,4 +1,4 @@
-package Lecture00_2110215;
+package Lecture0_215_IntroOOP;
 
 // we need to import Scanner library first
 import java.util.Scanner;

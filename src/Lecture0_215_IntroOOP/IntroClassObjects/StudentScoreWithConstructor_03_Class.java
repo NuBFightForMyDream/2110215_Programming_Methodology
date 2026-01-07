@@ -1,4 +1,4 @@
-package Lecture00_215_OOP;
+package Lecture0_215_IntroOOP.IntroClassObjects;
 
 public class StudentScoreWithConstructor_03_Class {
 	// define private attributes -> need to create getter & setter method
