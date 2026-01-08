@@ -57,7 +57,9 @@ public class ExampleLabTutorial_Carrier {
     public String toString() {
         String output_text = "\"" ;
         for (int pos = 0 ; pos < this.aircraftStorage.length ; pos++) {
-            output_text += this.aircraftStorage[pos].toString() + '\n' ;
+            if (this.aircraftStorage[pos] != null) {
+                output_text += this.aircraftStorage[pos].toString() + '\n';
+            }
         }
         return output_text + "\"" ;
     }
