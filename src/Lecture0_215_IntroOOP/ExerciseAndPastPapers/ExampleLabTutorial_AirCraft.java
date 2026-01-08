@@ -11,8 +11,6 @@ public class ExampleLabTutorial_AirCraft {
     }
     public ExampleLabTutorial_AirCraft( int curSpd , int maxSpd ) {
         // need to call getter-setter methods for strange val
-        this.setCurrentSpeed( curSpd );
-        this.setMaxSpeed( maxSpd );
 
     }
 
