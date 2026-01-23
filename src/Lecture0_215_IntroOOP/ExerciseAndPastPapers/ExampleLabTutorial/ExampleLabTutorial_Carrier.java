@@ -1,4 +1,4 @@
-package Lecture0_215_IntroOOP.ExerciseAndPastPapers;
+package Lecture0_215_IntroOOP.ExerciseAndPastPapers.ExampleLabTutorial;
 
 public class ExampleLabTutorial_Carrier {
     // define attributes
