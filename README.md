@@ -14,11 +14,12 @@
 - Lab 1 : Dungeon Game (In Progress)
 
 ### Lecture Mocks 
+** Lecture 1 OOP **
 - Mock_OOP_01 :
 - Mock OOP_02 : Misa Shop [Link Here](https://github.com/fightformygoal/CP215_Mock_OOP_02_MisaShop_6730084521)
 - Mock OOP_03 :
 - Mock OOP_04 : Simple Discord [Link Here](https://github.com/fightformygoal/CP215_Mock_OOP_04_SimpleDiscord_6730084521)
-
+** Lecture 2 Inheritamce **
 - Mock Inheritamce 01 : ONU [Link Here](https://github.com/fightformygoal/CP215_Mock_Inheritance_01_ONU_6730084521)
 - Mock Inheritance 02 : Stand User Bizarre Fight [Link Here](https://github.com/fightformygoal/CP215_Mock_Inheritance_02_StandUserBizarreFight_6730084521)
   
