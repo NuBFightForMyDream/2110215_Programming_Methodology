@@ -1,0 +1,59 @@
+@startuml
+class Lecture2_215_Inheritance.PVKLecture.UndergraduateStudent {
++ void completeCourseGrade()
++ void printName()
++ String toString()
++ {static} void printAbbrev()
+}
+
+class Lecture2_215_Inheritance.PVKLecture.Student {
+# {static} int NUM_OF_TESTS
+# String name
+# int[] testScores
+# String courseGrade
++ String getName()
++ void setName(String)
++ int getTestScore(int)
++ void setTestScore(int,int)
++ String getCourseGrade()
++ void setCourseGrade(String)
++ void printName()
++ {static} void printAbbrev()
++ String toString()
+}
+
+
+class Lecture2_215_Inheritance.PVKLecture.MySchool {
++ {static} void main(String[])
++ {static} void helloStudent(Student)
+}
+
+class Lecture2_215_Inheritance.PVKLecture.MyUniversity {
++ {static} void main(String[])
+}
+
+class Lecture2_215_Inheritance.PVKLecture.CPStudent {
+~ String CPIndivProject
++ String getCPIndivProject()
++ void setCPIndivProject(String)
++ String toString()
+}
+
+
+class Lecture2_215_Inheritance.PVKLecture.GraduateStudent {
+- String advisorName
++ String getAdvisorName()
++ void setAdvisorName(String)
++ void completeCourseGrade()
++ void printName()
++ {static} void printAbbrev()
++ String toString()
+}
+
+
+
+
+Lecture2_215_Inheritance.PVKLecture.Student <|-- Lecture2_215_Inheritance.PVKLecture.UndergraduateStudent
+Lecture2_215_Inheritance.PVKLecture.Student <|-- Lecture2_215_Inheritance.PVKLecture.CPStudent
+Lecture2_215_Inheritance.PVKLecture.Student <|-- Lecture2_215_Inheritance.PVKLecture.GraduateStudent
+@enduml

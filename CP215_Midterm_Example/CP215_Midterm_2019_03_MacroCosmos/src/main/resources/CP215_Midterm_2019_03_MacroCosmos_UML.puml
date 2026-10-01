@@ -1,0 +1,77 @@
+@startuml
+abstract class logic.Employee {
+# String name
+# int id
+# int baseSalary
+# int bonus
++ <<Create>> Employee(String,int,int)
++ {abstract}int computeSalary()
++ {abstract}String getDescription()
++ String getName()
++ void setName(String)
++ int getId()
++ void setId(int)
++ int getBaseSalary()
++ void setBaseSalary(int)
++ int getBonus()
++ void setBonus(int)
+}
+
+
+class logic.OfficeWorker {
+- String department
++ <<Create>> OfficeWorker(String,int,String)
++ int computeSalary()
++ String getDescription()
++ String getDepartment()
++ void setDepartment(String)
+}
+
+
+class main.Main {
+- {static} Scanner sc
+- {static} Database database
++ {static} void main(String[])
++ {static} void addingEmployeeMenu()
++ {static} void removeEmployeeMenu()
++ {static} void bonusManagementMenu()
++ {static} void bonusTweakMenu(Employee)
++ {static} void listAllEmployee()
++ {static} void initializeEmployeeData()
+}
+
+
+class logic.BackEndAPI {
++ {static} int calculateMonthlySalary(int,int,int)
++ {static} String getOfficeWorkerDescription(int,String,String,int)
++ {static} String getJanitorDescription(int,String,String,int)
+}
+
+class logic.Janitor {
+- String area
++ <<Create>> Janitor(String,int,String)
++ String getArea()
++ void setArea(String)
++ int computeSalary()
++ String getDescription()
+}
+
+
+class logic.Database {
+- {static} ArrayList<Employee> employees
++ <<Create>> Database()
++ Employee getEmployeeById(int)
++ Employee getEmployeeByIndex(int)
++ boolean addEmployee(Employee)
++ boolean removeEmployeeById(int)
++ ArrayList<String> getAllEmployeeDescriptions()
++ int calculateAllSalary()
++ int getTotalEmployeeCount()
+}
+
+
+
+
+logic.Employee <|-- logic.OfficeWorker
+logic.Employee <|-- logic.Janitor
+@enduml

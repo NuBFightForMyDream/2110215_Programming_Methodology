@@ -1,0 +1,23 @@
+/* style.css */
+.root {
+    -fx-background-color: #2c3e50; /* สีพื้นหลัง */
+    -fx-font-family: "Tahoma";
+}
+
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10px;
+    -fx-padding: 10 20 10 20;
+}
+
+.button:hover {
+    -fx-background-color: #2980b9; /* เปลี่ยนสีตอนเอาเมาส์ไปชี้ */
+    -fx-cursor: hand;
+}
+
+.label {
+    -fx-text-fill: #ecf0f1;
+    -fx-font-weight: bold;
+}

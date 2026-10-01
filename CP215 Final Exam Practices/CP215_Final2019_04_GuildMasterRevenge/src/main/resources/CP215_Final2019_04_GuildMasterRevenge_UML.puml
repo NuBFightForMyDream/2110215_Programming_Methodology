@@ -1,0 +1,111 @@
+@startuml
+interface fighters.base.Attackable {
++ {abstract}int attack(Unit)
+}
+
+class logic.Cell {
+- Unit unit
+- boolean isEmpty
++ void emptyCell()
++ boolean isEmpty()
++ void setEmpty(boolean)
++ Unit getUnit()
++ void setUnit(Unit)
++ String toString()
+}
+
+
+abstract class fighters.base.Unit {
+# String name
+# String symbol
+# int maxHealth
+# int health
+# int speed
+# int power
+# int range
+# int defense
+# boolean onGuard
+# int location
+# boolean playerControlled
++ boolean move(int)
++ boolean sameTeam(Unit)
++ void remove()
++ int getMaxHealth()
++ void setMaxHealth(int)
++ int getHealth()
++ void setHealth(int)
++ int getPower()
++ void setPower(int)
++ int getSpeed()
++ void setSpeed(int)
++ String getName()
++ void setName(String)
++ String getSymbol()
++ void setSymbol(String)
++ boolean isPlayerControlled()
++ void setPlayerControlled(boolean)
++ int getDefense()
++ void setDefense(int)
++ boolean isOnGuard()
++ void setOnGuard(boolean)
++ int getRange()
++ void setRange(int)
++ int getLocation()
++ void setLocation(int)
+}
+
+
+interface fighters.base.Guardable {
++ {abstract}void guard()
+}
+
+class app.Application {
++ {static} void main(String[])
+}
+
+class fighters.derived.Tank {
++ void guard()
++ boolean move(int)
+}
+
+class logic.BattleUtils {
++ {static} int calculateDamage(int,Unit)
++ {static} boolean validRange(int,int,int)
+}
+
+class logic.GameManager {
++ {static} GameBoard gb
++ {static} int BOARD_SIZE
++ {static} ArrayList<Unit> allUnits
++ {static} void initializeGameManager(ArrayList<Unit>)
++ {static} void updateGameBoard()
+}
+
+
+class fighters.derived.Guildmaster {
++ boolean move(int)
++ int attack(Unit)
++ void guard()
+}
+
+class fighters.derived.Wizard {
++ int attack(Unit)
+}
+
+class logic.GameBoard {
+- Cell[] field
++ Cell getCell(int)
++ void printGameBoard()
+}
+
+
+
+
+fighters.base.Guardable <|.. fighters.derived.Tank
+fighters.base.Unit <|-- fighters.derived.Tank
+fighters.base.Attackable <|.. fighters.derived.Guildmaster
+fighters.base.Guardable <|.. fighters.derived.Guildmaster
+fighters.base.Unit <|-- fighters.derived.Guildmaster
+fighters.base.Attackable <|.. fighters.derived.Wizard
+fighters.base.Unit <|-- fighters.derived.Wizard
+@enduml

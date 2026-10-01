@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CP215_FinalProject_6730084521_2025S2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CP215_FinalProject_JavaDoc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CP215_Lab_05_MineSweeper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CP215_Lab_06_WordRoyale" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CP215_Problems/CP215_Lab_01_CardCollector_6730084521" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CP215_Problems/CP215_Lab_02_ZergChess" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CP215_Problems/CP215_Lab_03_CardGameMechanic_6730084521" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CP215_Problems/CP215_Lab_04_OverdueAllYouCanRush" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CP215_ProgMeth_TestProject" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,68 @@
+package logic.attack;
+
+import logic.monster.Monster;
+
+public class Attack {
+	// attributes
+	protected int power;
+	protected String name;
+	protected boolean isLeader;
+
+	// constructor
+	public Attack(int power, String name,boolean isLeader) {
+		this.setPower(power);
+		this.setName(name);
+		this.setLeader(isLeader);
+	}
+
+	// getter - setter
+	public int getPower() {
+		return power;
+	}
+
+	public void setPower(int power) {
+		this.power = power<0? 0:power;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name.isBlank()? "No Name":name;
+	}
+
+	public boolean isLeader() {
+		return isLeader;
+	}
+
+	public void setLeader(boolean isLeader) {
+		this.isLeader = isLeader;
+	}
+
+	// methods
+	public int calculateDamage(Monster target) {
+		// Calculate the damage by subtracting the power with the target’s Defense value.
+		int damage = this.power - target.getDefense() ;
+		if (damage < 0) return 0 ;
+		else return damage ;
+	}
+	
+	@Override
+	public boolean equals(Object o) {
+		//If the comparison is the object itself
+	    if (this == o) {
+	        return true;
+	    }
+	    //If the other one is null
+	    if (o == null) {
+	        return false;
+	    }
+	    //Type checking, then cast
+	    if (getClass() != o.getClass()) {
+	        return false;
+	    }
+	    Attack other = (Attack) o;
+	    return power==other.power && name.equals(other.getName()) && isLeader==other.isLeader();
+	}
+}

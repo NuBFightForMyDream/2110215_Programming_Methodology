@@ -1,0 +1,81 @@
+@startuml
+class gui.ControlPane {
+- Text drawnNumberText
+- Text drawCountText
+- Text bingoText
+- Button drawButton
+- Button newRoundButton
+- NumberGrid numberGrid
++ <<Create>> ControlPane(NumberGrid)
+- void initializeBingoText()
+- void initializeDrawButton()
+- void initializeNewRoundButton()
+- void drawButtonHandler()
+- void newRoundButtonHandler()
++ Text getDrawnNumberText()
++ Text getDrawCountText()
++ Text getBingoText()
++ Button getDrawButton()
++ Button getNewRoundButton()
++ NumberGrid getNumberGrid()
+}
+
+
+class main.Main {
++ void start(Stage)
++ {static} void main(String[])
+}
+
+class gui.NumberSquare {
+- int number
+- boolean isDrawn
+- Text numberText
++ <<Create>> NumberSquare()
++ void setupNumber(int)
++ void highlight()
++ int getNumber()
++ boolean isDrawn()
++ void setNumberText(Text)
+}
+
+
+class gui.BingoUtil {
+- {static} Integer[] numberArray
+- {static} Integer[] drawArray
+- {static} Random rng
+- {static} int drawnCount
+- {static} int ROW_SIZE
+- {static} int COLUMN_SIZE
+- {static} int MAX_NUMBER
++ {static} void initializeNumberGridSquares(NumberGrid)
++ {static} void assignRandomNumbers(ObservableList<NumberSquare>)
++ {static} NumberSquare getNumberSquare(int,int,ObservableList<NumberSquare>)
++ {static} int drawNumber()
++ {static} void updateTextsAfterDrawn(int,Text,Text)
++ {static} void setTextsBeginning(Text,Text)
+- {static} void initializeArray()
++ {static} boolean isBingo(NumberGrid)
+- {static} void colorBingoSquare(NumberSquare)
++ {static} void setRowBingo(int,NumberGrid)
++ {static} void setColumnBingo(int,NumberGrid)
++ {static} void setDiagonalUpleftToDownrightBingo(NumberGrid)
++ {static} void setDiagonalUprightToDownleft(NumberGrid)
++ {static} void initializeNumberSquare(NumberSquare)
+}
+
+
+class gui.NumberGrid {
+- ObservableList<NumberSquare> numberSquares
++ <<Create>> NumberGrid()
++ boolean highlightNumber(int)
++ ObservableList<NumberSquare> getNumberSquares()
+}
+
+
+
+
+javafx.scene.layout.VBox <|-- gui.ControlPane
+javafx.application.Application <|-- main.Main
+gui.HBox <|-- gui.NumberSquare
+javafx.scene.layout.GridPane <|-- gui.NumberGrid
+@enduml

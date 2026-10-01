@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LayerTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-03-11T07:14:16.523Z" hostname="Chatrphols-MacBook-Air.local" time="0.018">
+  <properties/>
+  <testcase name="testSetFunction()" classname="LayerTest" time="0.007"/>
+  <testcase name="testApplyActivationDerivativeRelu()" classname="LayerTest" time="0.001"/>
+  <testcase name="testApplyActivationDerivativeTanh()" classname="LayerTest" time="0.001"/>
+  <testcase name="testApplyActivationDerivativeSigmoid()" classname="LayerTest" time="0.0"/>
+  <testcase name="testApplyActivationSigmoid()" classname="LayerTest" time="0.0"/>
+  <testcase name="testApplyActivationRelu()" classname="LayerTest" time="0.001"/>
+  <testcase name="testApplyActivationTanh()" classname="LayerTest" time="0.0"/>
+  <testcase name="testSetNeurons()" classname="LayerTest" time="0.001"/>
+  <testcase name="testConstructorWithFunction()" classname="LayerTest" time="0.0"/>
+  <testcase name="testApplyDerivativeException()" classname="LayerTest" time="0.001"/>
+  <testcase name="testConstructorWithInput()" classname="LayerTest" time="0.001"/>
+  <testcase name="testApplyActivationException()" classname="LayerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,32 @@
+@startuml
+class logic.card.BaseCard {
+- CardColor color
+- CardSymbol symbol
++ CardColor getColor()
++ void setColor(CardColor)
++ CardSymbol getSymbol()
++ void setSymbol(CardSymbol)
++ void play()
++ boolean ruleCheck()
+}
+
+
+class logic.card.DrawTwoCard {
++ void play()
++ boolean ruleCheck()
+}
+
+class logic.utility.GameLogicUtility {
++ {static} boolean drawRule()
+}
+
+class logic.card.NumberCard {
++ void play()
++ boolean ruleCheck()
+}
+
+
+
+logic.card.BaseCard <|-- logic.card.DrawTwoCard
+logic.card.BaseCard <|-- logic.card.NumberCard
+@enduml

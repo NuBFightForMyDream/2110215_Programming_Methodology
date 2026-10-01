@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b6307de-773c-40c7-8893-38ea9cf51a6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_01_CardCollector_6730084521/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_01_CardCollector_6730084521/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_01_CardCollector_6730084521/src/main/resources/badtext.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CP215_Problems/CP215_Lab_01_CardCollector_6730084521/src/main/resources/grimora.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Year 2 Semester 2/.idea/Year 2 Semester 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../External Courses/Machine Learning Coursera/ML_IBM 2.1 Simple Linear Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../External Courses/Machine Learning Coursera/ML_IBM 2.1 Simple Linear Regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../External Courses/Machine Learning Coursera/ML_IBM 2.2 Multiple Linear Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../External Courses/Machine Learning Coursera/ML_IBM 2.2 Multiple Linear Regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 1 Semester 1 (COMP PROG)/2110101 COMP PROG/grader1_section10_score.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 1 Semester 1 (COMP PROG)/2110101 COMP PROG/grader2_section10_score.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 00 Intro CPP/104_00_01 Hello World.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 00 Intro CPP/104_01_01 Expression.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 00 Intro CPP/output/104_00_01 Hello World.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 00 Intro CPP/output/104_01_01 Expression.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_02 Body Surface Area.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_03 Quadratic Root.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_04 Songkran Day.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_05 Expression V2 .cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_06 Duration.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_07 Eyeball.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_08 Citizen ID.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_09 Date Format.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/104_01_10 Decimal2Fraction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_02 Body Surface Area.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_03 Quadratic Root.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_04 Songkran Day.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_05 Expression V2 .exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_06 Duration.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_07 Eyeball.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_08 Citizen ID.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_09 Date Format.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 01 Expression/output/104_01_09 Decimal2Fraction.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_01 FacultyCode.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_02 Grading .cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_03 Gymnastic Score.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_04 Intania Major Change.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_05 Mobile Phone Checker.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_06 Positive &amp; Negative Number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_07 RegisteredMail.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_08 AbbrevedNumber.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_09 Day Of Year.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_10 Biorhythm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_11 Flowchart Median 5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/104_02_12 Flowchart Next 15 Days.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_02 .exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_03 Gymnastic Score.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_04 Intania Major Change.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_05 Mobile Phone Checker.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_06 Positive &amp; Negative Number.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_07 RegisteredMail.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_09 Day Of Year" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_09 Day Of Year 11-16-45-677" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_09 Day Of Year.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_11 Flowchart Median 5.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 02 Selection/output/104_02_12 Flowchart Next 15 Days.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_01 Average.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_02 Bisection.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_03 Count Word.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_04 MCQ Question.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_05 Parentheses.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_06 Print Triangle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_07 Check Password.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_08 Naive factorization.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_09 Remove Long &amp; Dup Char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_10 Run Length Encoding.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_11 Number Of Digits.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_12 Snooker.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_13 Zig-Zag.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_14 Flowchart Loop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/104_03_15 Flowchart Hard.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_01 Average" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_01 Average 11-16-45-688" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_01 Average.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_01 Average.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_02 Bisection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_02 Bisection 11-16-45-690" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_02 Bisection.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_02 Bisection.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_03 Count Word.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_04 MCQ Question.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_05 Parentheses.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_06 Print Triangle.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_07 Check Password.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_08 Naive factorization.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_09 Remove Long &amp; Dup Char.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_10 Run Length Encoding.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_11 Number Of Digits.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_14 Flowchart Loop.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 03 Repetition/output/104_03_15 Flowchart Hard.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/104_04_01 Missing Digits Sol1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/104_04_01 Missing Digits Sol2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/104_04_02 Nickname.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/104_04_03 Peaks.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/104_04_04 2D Moving Average.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/104_04_05 Finite Simple Continued Fraction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/104_04_07 Landing Fee.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/104_04_10 Tiling Puzzle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_01 Missing Digits Sol2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_01 Missing Digits.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_02 Nickname.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_03 Peaks.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_04 2D Moving Average Sol1 General.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_04 2D Moving Average.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_08 Landing Fee.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_11 Tiling Puzzle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_11 Tiling Puzzle 11-16-45-698" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_11 Tiling Puzzle.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 04 Array (Not Completed)/output/104_04_11 Tiling Puzzle.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 05 String File Processing (NC)/104_05_01 Decode String.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 05 String File Processing (NC)/104_05_02 Add Big Numbers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 05 String File Processing (NC)/output/104_05_02 Add Big Numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 05 String File Processing (NC)/output/104_05_02 Add Big Numbers 11-16-45-702" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/Part 05 String File Processing (NC)/output/104_05_02 Add Big Numbers.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/output/104_02_01 FacultyCode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/output/104_02_01 FacultyCode.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/output/104_02_01 FacultyCode.dSYM/Contents/Resources/DWARF/104_02_01 FacultyCode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Grader Problems/output/104_02_01 FacultyCode.dSYM/Contents/Resources/Relocations/aarch64/104_02_01 FacultyCode.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/104_Lecture_01_01 Average.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/104_Lecture_01_02 Unsigned Value.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/104_Lecture_01_03 Operators.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/104_Lecture_01_04 Characters &amp; String.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/104_Lecture_01_04 String Find.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/output/104_Lecture_01_01 Average" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/output/104_Lecture_01_01 Average.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/output/104_Lecture_01_01 Average.dSYM/Contents/Resources/DWARF/104_Lecture_01_01 Average" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/output/104_Lecture_01_01 Average.dSYM/Contents/Resources/Relocations/aarch64/104_Lecture_01_01 Average.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/output/104_Lecture_01_03 Operators.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 01 Expression/output/104_Lecture_01_04 Characters &amp; String.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 02 Condition/104_Lecture_02_01 Boolean &amp; String Comp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 02 Condition/104_Lecture_02_02 Block Structure.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 02 Condition/104_Lecture_02_03 Ternary Operator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 02 Condition/104_Lecture_02_04 Miscelleneous.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 02 Condition/output/104_Lecture_02_01 Boolean.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 02 Condition/output/104_Lecture_02_02 Block Structure.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 02 Condition/output/104_Lecture_02_03 Ternary Operator.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 02 Condition/output/104_Lecture_02_04 Miscelleneous.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/104_Lecture_03_01_Ex01 While Loop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/104_Lecture_03_01_Ex02 While Loop Example.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/104_Lecture_03_01_Ex03 String In Loop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/104_Lecture_03_01_Ex04 Find Word in Loop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/104_Lecture_03_01_Ex05 Prime Numbers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/104_Lecture_03_01_Ex06 Reverse String.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/104_Lecture_03_01_Ex07_ForLoop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/104_Lecture_03_01_Ex08 ForLoopChar.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01 Basic Loop.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex01 While Loop" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex01 While Loop 11-16-45-583" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex01 While Loop.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex02 While Loop Example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex02 While Loop Example 11-16-45-583" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex02 While Loop Example.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex04 Find Word in Loop" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex04 Find Word in Loop 11-16-45-589" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex04 Find Word in Loop.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex05 Prime Numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex05 Prime Numbers 11-16-45-592" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex05 Prime Numbers.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex06 Reverse String" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex06 Reverse String 11-16-45-594" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex06 Reverse String.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex07_ForLoop" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex07_ForLoop 11-16-45-596" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex07_ForLoop.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex08 ForLoopChar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex08 ForLoopChar 11-16-45-597" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 01 Repetition/output/104_Lecture_03_01_Ex08 ForLoopChar.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/104_Lecture_03_02_01 Basic Function.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/104_Lecture_03_02_02 ExampleDefineFunction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/104_Lecture_03_02_03 FunctionsCallFunctions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02 Basic Function" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02 Basic Function 11-16-45-603" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02 Basic Function.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02 While Loop Example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02 While Loop Example 11-16-45-599" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02 While Loop Example.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02_02 ExampleDefineFunction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02_02 ExampleDefineFunction 11-16-45-604" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02_02 ExampleDefineFunction.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02_03 FunctionsCallFunctions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02_03 FunctionsCallFunctions 11-16-45-606" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 03 02 Function/output/104_Lecture_03_02_03 FunctionsCallFunctions.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_01 Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_02 Change Value in Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_03 Array Defined.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_04 Array Test Functions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_05 2D Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_06 3D Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_07 3D Array First Defined.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_08 Array With Runtime Bound.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/104_Lecture_04_09 Array Examples.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_01 Array.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_03 2D Array" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_03 2D Array 11-16-45-612" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_03 2D Array.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_03 2D Array.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_03 Dimensional Array.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_04 2D Array Test Functions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_04 2D Array Test Functions 11-16-45-615" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_04 2D Array Test Functions.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_04 3D Array" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_04 3D Array 11-16-45-617" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_04 3D Array.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_05 Array Defined" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_05 Array Defined 11-16-45-617" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_05 Array Defined.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_06 3D Array" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_06 3D Array 11-16-45-621" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_06 3D Array.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_07 3D Array First Defined" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_07 3D Array First Defined 11-16-45-623" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_07 3D Array First Defined.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_08 Array With Runtime Bound" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_08 Array With Runtime Bound 11-16-45-626" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_08 Array With Runtime Bound.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_09 Array Examples" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_09 Array Examples 11-16-45-627" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 04 Array/output/104_Lecture_04_09 Array Examples.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/104_Lecture_05_01 Basic String.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/104_Lecture_05_02_01 Read File.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/104_Lecture_05_02_03 Write File.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/output/104_Lecture_05_02_01 Read File" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/output/104_Lecture_05_02_01 Read File 11-16-45-632" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/output/104_Lecture_05_02_01 Read File.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/output/104_Lecture_05_02_03 Write File" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/output/104_Lecture_05_02_03 Write File 11-16-45-633" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 05 String File Processing/output/104_Lecture_05_02_03 Write File.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/104_Lecture_06_01_01 Basic Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/104_Lecture_06_01_02 Basic Tuple.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/104_Lecture_06_01_03 Find Max Tuple in Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/104_Lecture_06_01_04 Older Tuple Comparison.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/104_Lecture_06_01_05 Pair Creation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/104_Lecture_06_01_06 Find Max Pair.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/104_Lecture_06_01_07 Upgrade.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/104_Lecture_06_01_08 Quadratic Equation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_01 Basic Array Before Tuple Pair" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_01 Basic Array Before Tuple Pair 11-16-45-639" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_01 Basic Array Before Tuple Pair.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_02 Basic Tuple" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_02 Basic Tuple 11-16-45-641" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_02 Basic Tuple.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_03 Find Max Tuple in Array" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_03 Find Max Tuple in Array 11-16-45-642" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_03 Find Max Tuple in Array.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_04 Older Tuple Comparison" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_04 Older Tuple Comparison 11-16-45-644" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_04 Older Tuple Comparison.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_05 Pair Creation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_05 Pair Creation 11-16-45-647" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_05 Pair Creation.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_06 Find Max Pair" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_06 Find Max Pair 11-16-45-647" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_06 Find Max Pair.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_07 Upgrade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_07 Upgrade 11-16-45-650" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_07 Upgrade.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_08 Quadratic Equation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_08 Quadratic Equation 11-16-45-652" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 01 Tuple Pair/output/104_Lecture_06_01_08 Quadratic Equation.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/104_Lecture_06_02_01 Basic Vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/104_Lecture_06_02_02 Push Back Vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/104_Lecture_06_02_03 Iterator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_LEcture_06_02_03 Iterator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_LEcture_06_02_03 Iterator 11-16-45-654" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_LEcture_06_02_03 Iterator.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_Lecture_06_02_01 Basic Vector" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_Lecture_06_02_01 Basic Vector 11-16-45-656" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_Lecture_06_02_01 Basic Vector.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_Lecture_06_02_02 Push Back Vector" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_Lecture_06_02_02 Push Back Vector 11-16-45-659" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/CEDT COMP PROG/CEDT Lecture All/104 Lecture 06 02 Vector/output/104_Lecture_06_02_02 Push Back Vector.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/Dancing Ceremony d68q0 Sol1 O(N).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/Dancing Ceremony d68q0 Sol2 O(N logN).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/d68_q0_dancing_ceremony_1Star.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/output/Dancing Ceremony d68q0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/output/Dancing Ceremony d68q0 Sol1 O(N)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/output/Dancing Ceremony d68q0 Sol1 O(N).dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/output/Dancing Ceremony d68q0 Sol1 O(N).dSYM/Contents/Resources/DWARF/Dancing Ceremony d68q0 Sol1 O(N)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Dancing Ceremony d68_q0 (1 Star)/output/Dancing Ceremony d68q0 Sol1 O(N).dSYM/Contents/Resources/Relocations/aarch64/Dancing Ceremony d68q0 Sol1 O(N).yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Intersection ds02 (1 Star)/Intersection_ds02_1star.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Intersection ds02 (1 Star)/output/vector_intersection_d62q1c_1star" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Intersection ds02 (1 Star)/output/vector_intersection_d62q1c_1star.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Intersection ds02 (1 Star)/output/vector_intersection_d62q1c_1star.dSYM/Contents/Resources/DWARF/vector_intersection_d62q1c_1star" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Data Grader Problems/Part 2 std::vector , vector iterator/Intersection ds02 (1 Star)/output/vector_intersection_d62q1c_1star.dSYM/Contents/Resources/Relocations/aarch64/vector_intersection_d62q1c_1star.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Part 1 Vector Pair Tuple (Word Count)/Most Frequent Word ds01 (0.5 Star)/MostFrequentWord_ds01.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Part 1 Vector Pair Tuple (Word Count)/Most Frequent Word ds01 (0.5 Star)/output/MostFrequentWord_ds01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Part 1 Vector Pair Tuple (Word Count)/Vector Punch d62_q1a (1 Star)/vector_punch_d62_q1a.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Part 3 Basic STD/CUCAS Rating/cucas_rating_d58_q0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Part 3 Basic STD/Pair Sum ds01/ds01_pair_sum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Part 3 Basic STD/d57_q0_histogram/d57_q0_histogram_1star.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.1 Intro Data Structure C++ (Easy)/Min Max Ex00e2 (1 Star)/MinMax_Exe002.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.1 Intro Data Structure C++ (Easy)/Min Max Ex00e2 (1 Star)/output/MinMax_Exe002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.1 Intro Data Structure C++ (Easy)/Min Max Ex00e2 (1 Star)/output/MinMax_Exe002.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.1 Intro Data Structure C++ (Easy)/Min Max Ex00e2 (1 Star)/output/MinMax_Exe002.dSYM/Contents/Resources/DWARF/MinMax_Exe002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.1 Intro Data Structure C++ (Easy)/Min Max Ex00e2 (1 Star)/output/MinMax_Exe002.dSYM/Contents/Resources/Relocations/aarch64/MinMax_Exe002.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.1 Intro Data Structure C++ (Easy)/Time After Ex00e1 (0.5 Star)/TimeAfter_Exe001.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.1 Intro Data Structure C++ (Easy)/Time After Ex00e1 (0.5 Star)/output/TimeAfter_Exe001_Sol1_General" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.1 Intro Data Structure C++ (Easy)/Time After Ex00e1 (0.5 Star)/output/timeAfter_Exe001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Remove Even d57q0 (0.5 Star)/RemoveEven_d57q0.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Remove Even d57q0 (0.5 Star)/output/RemoveEven_d57q0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Reverse Vector I ds00_reverse1 (0.5 Star)/ReverseVector_ds00reverse1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Reverse Vector I ds00_reverse1 (0.5 Star)/output/ReverseVector_ds00reverse1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Vector Operation d62q1c (0.5 Star)/VectorOperation_d62q1c.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Vector Operation d62q1c (0.5 Star)/output/VectorOperation_d62q1c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Vector Operation d62q1c (0.5 Star)/output/VectorOperation_d62q1c.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Vector Operation d62q1c (0.5 Star)/output/VectorOperation_d62q1c.dSYM/Contents/Resources/DWARF/VectorOperation_d62q1c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Must Do)/Vector Operation d62q1c (0.5 Star)/output/VectorOperation_d62q1c.dSYM/Contents/Resources/Relocations/aarch64/VectorOperation_d62q1c.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Should Do)/Check Mapping ex00e3 (1 Star)/check_mapping_ex00e3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Should Do)/Reverse Vector II ds00_reverse2 (1 Star)/output/reverse_vector_ii_ds00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Should Do)/Reverse Vector II ds00_reverse2 (1 Star)/output/reverse_vector_ii_ds00.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Should Do)/Reverse Vector II ds00_reverse2 (1 Star)/output/reverse_vector_ii_ds00.dSYM/Contents/Resources/DWARF/reverse_vector_ii_ds00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Should Do)/Reverse Vector II ds00_reverse2 (1 Star)/output/reverse_vector_ii_ds00.dSYM/Contents/Resources/Relocations/aarch64/reverse_vector_ii_ds00.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Should Do)/Reverse Vector II ds00_reverse2 (1 Star)/output/reverse_vector_ii_ds00.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year 3 Semester 1/2110211 Data Structure/Week 1 Intro Data Structure C++/Part 1.2 Vector Pair Tuple (Word Count)/1.2 Vector Pair Tuple (Should Do)/Reverse Vector II ds00_reverse2 (1 Star)/reverse_vector_ii_ds00.cpp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3912PNxeJcF7oprZiUz2un3ncMd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/nubfightformydream/Documents/Intania 108 Courses/2110215 Programming Methodology 2025T2/CP215_Lec01_Mock"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b6307de-773c-40c7-8893-38ea9cf51a6d" name="Changes" comment="" />
+      <created>1769849230225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769849230225</updated>
+    </task>
+    <servers />
+  </component>
+</project>

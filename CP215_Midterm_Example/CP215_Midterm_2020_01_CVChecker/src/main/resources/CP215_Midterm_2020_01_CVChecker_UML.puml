@@ -1,0 +1,75 @@
+@startuml
+class grader.BuildingTest {
+~ {static} Person per1
+~ {static} Person per2
+~ {static} Person per3
+~ {static} Person per4
+~ {static} Person per5
+~ Building building
+~ void addAll()
+~ void testAddProfileNormal()
+~ void testAddProfileFever()
+~ void testAddProfileExistedNormal()
+~ void testAddProfileExistedFever()
+~ void testRemoveProfileNoFever()
+~ void testRemoveProfileWithFever()
+~ void testGetPopulationCount()
+~ void testGetPotentialInfectedCount()
+}
+
+
+class logic.Building {
+- ArrayList<EnterProfile> enterProfileList
+- int populationCount
+- int potentialInfectedCount
++ <<Create>> Building()
++ EnterProfile addProfile(Person,int)
++ EnterProfile removeProfile(int)
++ int getPopulationCount()
++ int getPotentialInfectedCount()
++ ArrayList<EnterProfile> getEnterProfileList()
+}
+
+
+class application.CVChecker {
+- {static} ArrayList<Person> personList
+- {static} Building building
+- {static} boolean isEnd
+- {static} Scanner kb
++ {static} void main(String[])
++ {static} void addProfileToBuilding(int,int)
++ {static} boolean addNewPerson(String,int)
++ {static} boolean isPersonExisted(int)
+- {static} void handleAddPerson()
+- {static} void handleCreateNewEnterProfile()
+- {static} void showPeopleList()
+- {static} void showEnterProfileList()
++ {static} Building getBuilding()
++ {static} void initializeData()
+}
+
+
+class logic.EnterProfile {
+- Person person
+- int bodyTemperature
++ <<Create>> EnterProfile(Person,int)
++ Person getPerson()
++ void setPerson(Person)
++ int getBodyTemperature()
++ void setBodyTemperature(int)
++ boolean hasFever()
+}
+
+
+class logic.Person {
+- String name
+- int ID
++ <<Create>> Person(String,int)
++ String getName()
++ void setName(String)
++ int getID()
++ void setID(int)
+}
+
+
+@enduml

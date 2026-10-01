@@ -1,0 +1,93 @@
+@startuml
+class disease.Covid19 {
+- R0 reproductionNumber
+- String countryOfFirstAppearance
++ <<Create>> Covid19()
+# SevereLevel severeLevel(boolean)
++ String toString()
++ int minimumInfectionSpread(int)
++ R0 getReproductionNumber()
++ void setReproductionNumber(R0)
++ String getCountryOfFirstAppearance()
++ void setCountryOfFirstAppearance(String)
+}
+
+
+class disease.Hypopnea {
+# SevereLevel severeLevel(boolean)
++ String toString()
+}
+
+enum util.SevereLevel {
++  SevereIllness
++  MildOrLess
++  Less
+~ <<Create>> SevereLevel(int)
+}
+
+
+class disease.Delta {
+- int spikeProtein
++ <<Create>> Delta()
++ int getSpikeProtein()
++ void setSpikeProtein(int)
++ String toString()
++ int minimumInfectionSpread(int)
++ SevereLevel severeLevel(boolean)
+}
+
+
+abstract class disease.Disease {
++ SevereLevel getSevereLevel(boolean)
+# {abstract}SevereLevel severeLevel(boolean)
+}
+
+class util.Patient {
+- String firstname
+- String lastname
+- String id
+- Disease disease
+- boolean vaccinated
++ <<Create>> Patient(String,String,String,Disease,boolean)
++ boolean isVaccinated()
++ void setVaccinated(boolean)
++ SevereLevel getSevereLevel()
++ void setDisease(Disease)
++ Disease getDisease()
++ String getFirstname()
++ void setFirstname(String)
++ String getLastname()
++ void setLastname(String)
++ String getId()
++ void setId(String)
++ String toString()
+}
+
+
+class util.R0 {
+- int min
+- int max
++ <<Create>> R0(int,int)
++ int getMin()
++ void setMin(int)
++ int getMax()
++ void setMax(int)
+}
+
+
+class disease.Hospital {
+- ArrayList<Patient> patients
++ <<Create>> Hospital()
++ ArrayList<Patient> getPatients()
++ void setPatients(ArrayList<Patient>)
++ void admit(String,String,String,String,boolean)
++ ArrayList<Patient> getCovidPatients(SevereLevel)
+}
+
+
+
+
+disease.Disease <|-- disease.Covid19
+disease.Disease <|-- disease.Hypopnea
+disease.Covid19 <|-- disease.Delta
+@enduml

@@ -1,0 +1,101 @@
+@startuml
+class logic.monster.Leader {
+- int maxChargeTurns
+- int currentChargeTurns
+- boolean isGuard
++ <<Create>> Leader(String,int,int,int,Attack,int)
++ int getMaxChargeTurns()
++ void setMaxChargeTurns(int)
++ int getCurrentChargeTurns()
++ void setCurrentChargeTurns(int)
++ boolean isGuard()
++ void setGuard(boolean)
++ int takeDamage(Attack)
++ boolean isReady()
+}
+
+
+class main.Main {
+- {static} ArrayList<Monster> playerParty
+- {static} ArrayList<Monster> enemyParty
+- {static} Scanner sc
++ {static} void main(String[])
+- {static} void playerMoveSelect()
+- {static} void playerGuard()
+- {static} void leaderGuard(Leader)
+- {static} void enemyTurns()
+- {static} void performAttack(Monster,Monster)
+- {static} int getChoiceInput()
+- {static} void initParty()
+- {static} boolean manageTurnsEnd()
+}
+
+
+class logic.attack.Attack {
+# int power
+# String name
+# boolean isLeader
++ <<Create>> Attack(int,String,boolean)
++ int getPower()
++ void setPower(int)
++ String getName()
++ void setName(String)
++ boolean isLeader()
++ void setLeader(boolean)
++ int calculateDamage(Monster)
++ boolean equals(Object)
+}
+
+
+class logic.attack.SPAttack {
++ <<Create>> SPAttack(int,String,boolean)
++ int calculateDamage(Monster)
+}
+
+class main.BattleUtil {
+- {static} Random rng
++ {static} ArrayList<Monster> getStartingPlayerParty()
++ {static} ArrayList<Monster> getStartingEnemyParty()
++ {static} String getMonsterStatDesc(Monster)
++ {static} void printParty(ArrayList<Monster>)
++ {static} Monster getRandomMonster(ArrayList<Monster>,boolean)
++ {static} void clearDeadMonster(ArrayList<Monster>)
+}
+
+
+class logic.monster.Monster {
+# String name
+# int hp
+# int maxhp
+# int def
+# int sp_def
+# Attack attack
+# boolean isDead
+# boolean attackStatus
++ <<Create>> Monster(String,int,int,int,Attack)
++ String getName()
++ void setName(String)
++ int getHp()
++ void setHp(int)
++ int getDefense()
++ void setDefense(int)
++ int getSpecialDefense()
++ void setSpecialDefense(int)
++ Attack getAttack()
++ void setAttack(Attack)
++ void setMaxhp(int)
++ int getMaxhp()
++ boolean isDead()
++ void setDead(boolean)
++ boolean getAttackedStatus()
++ void setAttackedStatus(boolean)
++ int takeDamage(Attack)
++ boolean isReady()
+}
+
+
+
+
+logic.monster.Monster <|-- logic.monster.Leader
+logic.attack.Attack <|-- logic.attack.SPAttack
+@enduml

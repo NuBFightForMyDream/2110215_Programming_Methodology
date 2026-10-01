@@ -1,0 +1,296 @@
+@startuml
+class application.place.AddCard {
++ <<Create>> AddCard()
++ void run()
+~ void printPrompt()
+~ String getCardType(int)
+}
+
+class logic.card.OrbCard {
+- Element orbType
++ <<Create>> OrbCard(String,int,int,Element)
++ void play(Player)
++ boolean canPlay(Player)
++ Element getOrbType()
++ void setOrbType(Element)
+}
+
+
+class application.place.PlacesList {
+~ {static} PowerBoost buffPower
+~ {static} PowerBoost buffHealth
+~ {static} AddCard addCard
+~ {static} Merger merger
+~ {static} Encounter encounter1
+~ {static} Encounter encounter2
+~ {static} Encounter encounter3
+~ {static} Encounter encounter4
+~ {static} Encounter encounter5
+~ {static} Encounter boss1
+- {static} Place[][] placeList
+~ {static} Place[] getPlaceZone()
++ {static} Place[][] getPlaceList()
+}
+
+
+class application.deck.Deck {
+- String name
+- ArrayList<BaseCard> deckList
++ <<Create>> Deck(String,ArrayList<BaseCard>)
++ void insertCard(BaseCard)
++ BaseCard removeCard(int)
++ String toString()
++ String getName()
++ void setName(String)
++ ArrayList<BaseCard> getDeckList()
++ void setDeckList(ArrayList<BaseCard>)
+}
+
+
+class application.game.GameManager {
+- {static} Deck playerDeck
+- {static} int stage
+- {static} int life
++ {static} Deck getPlayerDeck()
++ {static} void setPlayerDeck(Deck)
++ {static} int getStage()
++ {static} void setStage(int)
++ {static} void increaseStage()
++ {static} int getLife()
++ {static} void setLife(int)
+}
+
+
+class application.place.Merger {
+~ ArrayList<Integer> bcl
++ <<Create>> Merger()
++ <<Create>> Merger(String)
++ void run()
+~ void printPrompt()
+~ String returnChoice(int)
+}
+
+
+class application.place.Encounter {
+- int round
+- Enemy opponent
++ <<Create>> Encounter(Enemy)
++ <<Create>> Encounter(String)
+~ boolean checkEnd(Player)
++ void run()
+~ ArrayList<BaseCard> shuffle()
+~ void moveIncoming(Enemy)
+~ void placeIncoming(Enemy)
+~ void printBoardStatus(Player)
+~ void printCardRow(ArrayList<BaseCard>)
+~ String printCardElementOnBoard(BaseCard)
+~ String printCardNameOnBoard(BaseCard)
+~ String printCardStatOnBoard(BaseCard)
+~ void playerTurn(Player)
+~ void promptPlayerTurn(Player,Enemy)
+~ String choicePlayerTurn(int,Player)
+~ void promptPosition(Player)
+~ String choicePosition(int)
+~ void attack(Player,Player)
+~ void clearDeathCard(ArrayList<BaseCard>)
+}
+
+
+class application.place.Place {
+- String name
++ <<Create>> Place(String)
++ void run()
++ String getName()
++ void setName(String)
+}
+
+
+class application.ShopApp {
++ <<Create>> ShopApp(PrintStream,Scanner)
++ BaseCard getCardChoice(List<BaseCard>,Runnable)
++ BaseCard getCardChoice(BaseCard[],Runnable)
++ ArrayList<BaseCard> getDeckChoice(List<ArrayList<BaseCard>>,Runnable)
+}
+
+class application.place.Places {
++ <<Create>> Places(PrintStream,Scanner)
++ void run()
++ void prompt()
+}
+
+class logic.player.Player {
+- int damage
+- ArrayList<BaseCard> deck
+- ArrayList<BaseCard> hand
+- ArrayList<BaseCard> field
+- int energy
++ <<Create>> Player()
++ <<Create>> Player(ArrayList<BaseCard>)
++ boolean playCard(int,int)
++ void drawCard()
++ int getDamage()
++ void setDamage(int)
++ ArrayList<BaseCard> getDeck()
++ void setDeck(ArrayList<BaseCard>)
++ ArrayList<BaseCard> getHand()
++ void setHand(ArrayList<BaseCard>)
++ ArrayList<BaseCard> getField()
++ void setField(ArrayList<BaseCard>)
++ int getEnergy()
++ void setEnergy(int)
+}
+
+
+class logic.card.MageCard {
+- Element mageType
++ <<Create>> MageCard(String,int,int,Element)
++ Element getMageType()
++ void setMageType(Element)
++ void play(Player)
++ boolean canPlay(Player)
+}
+
+
+enum logic.card.Element {
++  FIRE
++  WATER
++  EARTH
++  ICE
+}
+
+class application.deck.PremadeDeck {
+~ {static} OrbCard earthOrb
+~ {static} OrbCard waterOrb
+~ {static} OrbCard windOrb
+~ {static} OrbCard fireOrb
+~ {static} RobotCard turret
+~ {static} RobotCard robot
+~ {static} RobotCard ruinGuard
+~ {static} MageCard waterMage
+~ {static} MageCard windMage
+~ {static} MageCard fireMage
+~ {static} ArrayList<BaseCard> orbDeckList
+~ {static} ArrayList<BaseCard> robotDeckList
+~ {static} ArrayList<BaseCard> mageDeckList
+~ {static} ArrayList<BaseCard> mixDeckList
+~ {static} Deck orbDeck
+~ {static} Deck robotDeck
+~ {static} Deck mageDeck
+~ {static} Deck mixDeck
++ {static} List<Deck> premadeDecks
+~ {static} ArrayList<CardQueue> enemyCard1
++ {static} Enemy enemy1
+~ {static} ArrayList<CardQueue> enemyCard2
++ {static} Enemy enemy2
+~ {static} ArrayList<CardQueue> enemyCard3
++ {static} Enemy enemy3
+~ {static} ArrayList<CardQueue> enemyCard4
++ {static} Enemy enemy4
+~ {static} ArrayList<CardQueue> enemyCard5
++ {static} Enemy enemy5
+~ {static} ArrayList<CardQueue> bossCard1
++ {static} Enemy boss1
+~ {static} Random rand
+~ {static} BaseCard[] randomOrbCardList
+~ {static} BaseCard[] randomRobotCardList
+~ {static} BaseCard[] randomMageCardList
++ {static} void enemyInit()
+~ {static} CardQueue createCardQueue(int,int,BaseCard)
+~ {static} CardQueue createCardQueue(int,BaseCard)
++ {static} BaseCard getRandomCard(int)
+~ {static} BaseCard getRandomOrbCard()
+~ {static} BaseCard getRandomRobotCard()
+~ {static} BaseCard getRandomMageCard()
+}
+
+
+abstract class logic.card.BaseCard {
+- String name
+- int power
+- int health
++ <<Create>> BaseCard(String,int,int)
++ String getName()
++ void setName(String)
++ int getPower()
++ void setPower(int)
++ int getHealth()
++ void setHealth(int)
++ {abstract}void play(Player)
++ {abstract}boolean canPlay(Player)
++ int attack(BaseCard)
+}
+
+
+class application.PlayerSelection {
++ <<Create>> PlayerSelection(PrintStream,Scanner)
++ Deck runDeckSelection()
+- void printDecks()
+- String printCardinDeck(int)
+}
+
+class application.game.CardQueue {
+- int position
+- int turn
+- BaseCard playCard
++ <<Create>> CardQueue(int,int,BaseCard)
++ int getPosition()
++ void setPosition(int)
++ int getTurn()
++ void setTurn(int)
++ BaseCard getPlayCard()
++ void setPlayCard(BaseCard)
+}
+
+
+class application.game.Enemy {
+- String name
+- ArrayList<CardQueue> queue
++ <<Create>> Enemy()
++ <<Create>> Enemy(String,ArrayList<CardQueue>)
++ ArrayList<CardQueue> getQueue()
++ void setQueue(ArrayList<CardQueue>)
++ String getName()
++ void setName(String)
+}
+
+
+class logic.card.RobotCard {
+- int energyCost
++ <<Create>> RobotCard(String,int,int,int)
++ int getEnergyCost()
++ void setEnergyCost(int)
++ void play(Player)
++ boolean canPlay(Player)
+}
+
+
+class application.Main {
+~ {static} Scanner scanner
+- {static} void printLineSeparator()
++ {static} void main(String[])
+}
+
+
+class application.place.PowerBoost {
+- boolean power
++ <<Create>> PowerBoost(boolean)
++ <<Create>> PowerBoost(String,boolean)
++ void run()
+~ void printPrompt()
+}
+
+
+
+
+application.place.Place <|-- application.place.AddCard
+logic.card.BaseCard <|-- logic.card.OrbCard
+application.place.Place <|-- application.place.Merger
+application.place.Place <|-- application.place.Encounter
+application.util.ChoiceUtil <|-- application.ShopApp
+application.ShopApp <|-- application.place.Places
+logic.card.BaseCard <|-- logic.card.MageCard
+application.ShopApp <|-- application.PlayerSelection
+logic.player.Player <|-- application.game.Enemy
+logic.card.BaseCard <|-- logic.card.RobotCard
+application.place.Place <|-- application.place.PowerBoost
+@enduml

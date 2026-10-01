@@ -1,0 +1,104 @@
+@startuml
+class grader.DrawTwoCardTest {
+~ DrawTwoCard d1
+~ DrawTwoCard d2
+~ DrawTwoCard d3
+~ DrawTwoCard d4
+~ DrawTwoCard d5
+~ ArrayList<BaseCard> deck
+~ ArrayList<BaseCard> hand
+~ void setUp()
+~ void testConstructor()
+~ void testPlay()
+~ void testRuleCheck()
+}
+
+
+class logic.card.BaseCard {
+- CardColor color
+- CardSymbol symbol
++ CardColor getColor()
++ void setColor(CardColor)
++ CardSymbol getSymbol()
++ void setSymbol(CardSymbol)
++ void play()
++ boolean ruleCheck()
+}
+
+
+enum logic.game.CardColor {
++  RED
++  BLUE
++  GREEN
++  YELLOW
+}
+
+class grader.GameLogicUtilityTest {
+~ void setUp()
+~ void tearDown()
+~ void testRuleCheckNumberCardInHand()
+~ void testRuleCheckDrawTwoCardInHand()
+}
+
+class logic.game.GameLogic {
+- ArrayList<BaseCard> deck
+- ArrayList<BaseCard> hand
+- BaseCard topCard
+- {static} GameLogic instance
++ {static} GameLogic getInstance()
++ void draw(int)
++ void gameStart()
++ boolean checkDrawRule()
++ ArrayList<BaseCard> getDeck()
++ void setDeck(ArrayList<BaseCard>)
++ ArrayList<BaseCard> getHand()
++ void setHand(ArrayList<BaseCard>)
++ BaseCard getTopCard()
++ void setTopCard(BaseCard)
++ boolean isGameOver()
+}
+
+
+class logic.card.DrawTwoCard {
++ void play()
++ boolean ruleCheck()
+}
+
+class logic.utility.GameLogicUtility {
++ {static} boolean drawRule()
+}
+
+class logic.card.NumberCard {
++ void play()
++ boolean ruleCheck()
+}
+
+class grader.NumberCardTest {
+~ BaseCard c1
+~ BaseCard c2
+~ BaseCard c3
+~ BaseCard c4
+~ void setUp()
+~ void testConstructor()
+~ void testPlay()
+~ void testRuleCheck()
+}
+
+
+class application.Main {
++ {static} void main(String[])
+}
+
+enum logic.game.CardSymbol {
++  ONE
++  TWO
++  THREE
++  FOUR
++  DRAW
+}
+
+
+
+logic.card.BaseCard <|-- logic.card.DrawTwoCard
+logic.card.BaseCard <|-- logic.card.NumberCard
+@enduml
